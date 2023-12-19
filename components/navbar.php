@@ -1,6 +1,6 @@
    <!--=============== HEADER ===============-->
    <header class="header">
-        <nav class="nav container">
+        <nav class="nav container max-w-7xl">
             <div class="nav__data">
                 <a href="#" class="nav__logo text-3xl">
                     Fleet
@@ -441,6 +441,6 @@
                     </li>
                 </ul>
             </div>
-            <button class="bg-sky-700 my-6 text-white rounded-md px-4 hidden lg:block">Log In</button>
+            <button class="bg-sky-700 my-6 text-white rounded-md px-8 hidden lg:block">Log In</button>
         </nav>
     </header>

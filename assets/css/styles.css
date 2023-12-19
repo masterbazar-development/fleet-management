@@ -92,7 +92,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+
   margin-inline: 1.5rem;
 }
 
@@ -379,3 +379,23 @@ a {
   background-size: 3px 3px;
   z-index: 2;
 }
+
+
+.product-sec{
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.801) 30%, rgba(0, 0, 0, 0)), url("../images/project-sec.jpg") center center / cover no-repeat;
+}
+
+.product-marketplace{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/marketplace-banner.jpg") center center / cover no-repeat;
+}
+
+
+.product-software{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/softwareint.jpg") center center / cover no-repeat;
+}
+
+
+.softwaresec4{
+  background: linear-gradient(-60deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) ), url("../images/softwaregrad.jpg") center center / cover no-repeat;
+}
+
