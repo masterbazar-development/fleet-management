@@ -1,5 +1,42 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Roboto:wght@400;500;700;900&display=swap');
+
+/*=============== Helvetica FONTS ===============*/
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/Helvetica/helvetica-light-587ebe5a59211.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/Helvetica/Helvetica.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/Helvetica/Helvetica-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/Helvetica/helvetica-compressed-5871d14b6903a.ttf') format('truetype');
+  font-weight: 800;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Helvetica';
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+ul{
+  font-family: 'Roboto', sans-serif;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -341,4 +378,34 @@ a {
   );
   background-size: 3px 3px;
   z-index: 2;
+}
+
+.progress {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  background-color: #3498db;
+  height: 20px;
+  border-radius: 5px;
+}
+
+input{
+  background: #efefef;
+  font-size: 18px!important;
+  margin-bottom: 5px!important;
+  padding: 10px!important;
+}
+
+form select{
+  background: #efefef;
+  font-size: 18px!important;
+  margin-bottom: 5px!important;
+  padding: 10px!important;
+}
+
+form label{
+  font-size: 18px;
 }
