@@ -92,7 +92,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+
   margin-inline: 1.5rem;
 }
 
@@ -380,6 +380,7 @@ a {
   z-index: 2;
 }
 
+
 .progress {
   background-color: #f0f0f0;
   border-radius: 5px;
@@ -409,3 +410,91 @@ form select{
 form label{
   font-size: 18px;
 }
+
+
+
+
+.product-sec{
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.801) 30%, rgba(0, 0, 0, 0)), url("../images/project-sec.jpg") center center / cover no-repeat;
+}
+
+.product-marketplace{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/marketplace-banner.jpg") center center / cover no-repeat;
+}
+
+
+.product-software{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/softwareint.jpg") center center / cover no-repeat;
+}
+
+
+.softwaresec4{
+  background: linear-gradient(-60deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) ), url("../images/softwaresec2.jpg") center center / cover no-repeat;
+}
+
+.videosafetysec{
+  background: linear-gradient(-80deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0) ), url("../images/videosafetysec.jpg") center center / cover no-repeat;
+}
+
+.product-expand{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/expandibilitysec.jpg") center center / cover no-repeat;
+}
+
+.product-videosafety{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/videosafetyban.jpg")  center / cover no-repeat;
+}
+
+.product-telematics{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/telematicban.jpg") center center / cover no-repeat;
+}
+
+.product-overview{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/overviewban.gif") center center / cover no-repeat;
+}
+
+.contactussec{
+  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/contactusban.webp") center center / cover no-repeat;
+}
+
+
+
+
+
+/* ----------------contact us css start------------------ */
+
+
+.wrapper {
+  box-shadow: 4px 4px 2px rgb(181, 200, 228);
+}
+
+.wrapper .input_field {
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea {
+  resize: none;
+  height: 80px;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #8baafe;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.one {
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(0.01deg, #F0F6FE 55%, #fff 45%);
+}
+
+/* ----------------contact us css end------------------ */
