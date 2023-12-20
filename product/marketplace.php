@@ -7,8 +7,8 @@ include('../components/navbar.php');
     <section class="product-marketplace mt-10">
         <div class="max-w-7xl mx-auto flex py-32">
             <div class="xl:w-1/2 mx-[3vw] xl:mx-0">
-                <h1 class="text-white text-6xl font-semibold">Extend the power of Geotab</h1>
-                <p class="text-white text-2xl w-3/4 mt-3">Tap into our growing ecosystem of over 325 solutions to drive your fleet forward</p>
+                <h1 class="text-white text-4xl xl:text-6xl font-semibold">Extend the power of Geotab</h1>
+                <p class="text-white text-xl xl:text-2xl w-3/4 mt-3">Tap into our growing ecosystem of over 325 solutions to drive your fleet forward</p>
 
                 <button class="bg-sky-600 px-8 py-3 rounded text-sky-100 hover:bg-sky-500 transition duration-300 mt-10">Explore Marketplace</button>
             </div>
@@ -18,15 +18,29 @@ include('../components/navbar.php');
         </div>
     </section>
 
-    <section class="flex max-w-7xl mx-auto gap-20 text-[#25477B] my-16">
-        <div class="h-full my-auto">
+    <!-- <section class="xl:flex max-w-7xl mx-auto gap-20 text-[#25477B] my-16">
+        <div class="h-full my-auto mx-[3vw] xl:mx-0">
             <h2 class="text-4xl font-semibold">Solve operational challenges with the Geotab Marketplace</h2>
             <p class="text-lg mt-4">Our Marketplace curates the best in third-party and Geotab-developed solutions so you can create the most robust telematics framework for your fleet all within the Geotab ecosystem. With over 325 integrated options to choose from – including routing and dispatching, dash cameras and ADAS, maintenance and fuel management, and more – you can hand-pick the partners that will help you reach your operational goals.</p>
         </div>
-        <div>
+        <div class="mx-[3vw] xl:mx-0">
             <img src="../assets/images/marketplacesec1.jpg" alt="">
         </div>
-    </section>
+    </section> -->
+
+    <div class="flex flex-col items-center lg:flex-row max-w-7xl mx-auto mx-[5vw] gap-8 xl:gap-16 py-16 ">
+        <div class="xl:w-1/2 order-2 lg:order-1">
+            <h2 class="xl:text-5xl text-3xl text-head font-semibold text-[#25477B] mx-[3vw] xl:mx-0">
+            Solve operational challenges with the Geotab Marketplace
+            </h2>
+            <p class=" md:text-lg xl:text-xl md:mt-5 text-start mx-[3vw] xl:mx-0">
+            Our Marketplace curates the best in third-party and Geotab-developed solutions so you can create the most robust telematics framework for your fleet all within the Geotab ecosystem. With over 325 integrated options to choose from – including routing and dispatching, dash cameras and ADAS, maintenance and fuel management, and more – you can hand-pick the partners that will help you reach your operational goals.
+            </p>
+        </div>
+        <div class="xl:w-1/2 order-1 lg:order-2 mx-[3vw] xl:mx-0">
+            <img src="../assets/images/marketplacesec1.jpg" alt="" class="w-full">
+        </div>
+    </div>
 
 
 
@@ -130,7 +144,7 @@ include('../components/navbar.php');
 
         <div class="">
             <div id="show1" class=" bg-white shadow-lg w-full">
-                <div class="md:flex justify-center items-center gap-10 p-10">
+                <div class="md:flex justify-center items-center gap-10 p-4 md:p-10">
                     <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Basic</h2>
 

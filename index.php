@@ -8,11 +8,10 @@ include('components/navbar.php');
         <video class="lg:min-w-full lg:min-h-full brightness-50" src="./assets/video/fleetbanner.mp4" loop muted autoplay>
         </video>
         <div class="absolute top-16 md:top-1/2 inset-x-0 z-10 mx-[10vw]">
-            <h1 class=" text-white md:text-4xl lg:text-6xl font-semibold text-center mb-3">Operate at a Whole New Level
+            <h1 class=" text-white md:text-4xl lg:text-6xl font-semibold text-center mb-3">Your Go-to Platform for Optimal Fleet Performance
+
             </h1>
-            <p class="text-white lg:text-lg text-center mb-5">Lower fuel costs, boost efficiency, track your equipment,
-                and
-                more. All on one platform</p>
+            <p class="text-white lg:text-lg text-center mb-5">Get insights and recommendations to improve fleet performance with efficiency, safety, and sustainability</p>
             <div class="flex justify-center">
                 <button class="font-semibold bg-[#3887BE] px-5 py-2 text-white rounded-md">Check Our Price</button>
             </div>
@@ -56,7 +55,7 @@ include('components/navbar.php');
 
 
     <section class="max-w-7xl mx-auto mt-16 lg:mt-28 relative">
-        <h2 class="text-2xl md:text-4xl lg:text-5xl font-semibold text-center mb-10">See better. Operate smarter.</h2>
+        <h2 class="text-2xl md:text-4xl lg:text-5xl font-semibold text-center mb-10">Get Better Outcomes to Improve Fleet Performance</h2>
         <div class="flex justify-center md:flex-row flex-col">
             <button class="bt1 md:w-1/4 bg-slate-100 hover:bg-white transition-color duration-300 border-0" onclick="toggleVisibility('show1')">
                 <div class="flex ml-3 md:ml-0 md:justify-center">
@@ -106,16 +105,11 @@ include('components/navbar.php');
                     <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Reduce Costs</h2>
 
-                        <p class="mb-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores recusandae
-                            quos facere
-                            molestiae magni laboriosam sequi explicabo quaerat consequatur, quas suscipit aut sint
-                            mollitia, earum
-                            ratione quam soluta? Unde, eligendi?</p>l
-                        <p class="mb-3">lorem ipsum</p>
+                        <p class="mb-5"> Let us automate the processes and work on the opportunities to lower the cost and boost fleet efficiency. </p>
                         <ul class="list-disc pl-4 mb-10">
-                            <li class="mb-2">Lorem ipsum dolor sit amet.</li>
-                            <li class="mb-2">Lorem, ipsum dolor.</li>
-                            <li class="mb-2">lorem ipsum</li>
+                            <li class="mb-2">Accurate fuel efficiency</li>
+                            <li class="mb-2">Increase route and dispatching productivity</li>
+                            <li class="mb-2">Reduce vehicle wear and tear</li>
                         </ul>
 
                         <div class="flex gap-5 mt-10 px-5">
@@ -134,17 +128,14 @@ include('components/navbar.php');
             <div id="show2" class=" bg-white shadow-lg w-full">
                 <div class="md:flex justify-center items-center gap-10 p-10">
                     <div class="md:w-1/2 text-sky-800">
-                        <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Enhance Safety</h2>
+                        <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Safety Features</h2>
 
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus soluta,
-                            veritatis,
-                            delectus laudantium rerum, enim minus quis praesentium non unde incidunt illo vero harum
-                            ipsum. </p>
-                        <p class="mb-3">lorem ipsum</p>
+                        <p class="mb-5">Get customized solutions by minimizing risks and improving the safety of your fleet.</p>
                         <ul class="list-disc pl-4 mb-10">
-                            <li class="mb-2">Lorem ipsum dolor sit amet.</li>
-                            <li class="mb-2">Lorem ipsum dolor sit amet consectetur.</li>
-                            <li class="mb-2">Lorem, ipsum dolor.</li>
+                            <li class="mb-2">Deliver in-vehicle driver coaching </li>
+                            <li class="mb-2">Increase AI-based video safety intelligence</li>
+                            <li class="mb-2">Reconstruct collisions</li>
+                            <li class="mb-2">Reduce your commercial fleet insurance premiums using safe driving behavior metrics </li>
                         </ul>
 
                         <div class="flex gap-5 mt-10 px-5">
@@ -168,15 +159,11 @@ include('components/navbar.php');
                         <!--             <p class="font-bold mb-3">Lorem Ipsum dipsum Lorem ipsum dipsum Lorem Ipsum dipsum Lorem ipsum
                   dipsum Lorem Ipsum
                   dipsum Lorem ipsum dipsum Lorem Ipsum </p> -->
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusantium, quos,
-                            hic numquam
-                            suscipit voluptas, exercitationem quas ea vero provident velit aliquam voluptatibus placeat
-                            est et. </p>
-                        <p class="mb-3">lorem dolor sit amet</p>
+                        <p class="mb-5">Get insights from real-world data that help you reduce your fleet’s emissions, costs, and operational efficiency.</p>
                         <ul class="list-disc pl-4 mb-10">
-                            <li class="mb-2">lorem ipsum</li>
-                            <li class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-                            <li class="mb-2">lorem ipsum dolor</li>
+                            <li class="mb-2">Know about the factors that lead to excessive fuel consumption</li>
+                            <li class="mb-2">Control emissions whenever required</li>
+                            <li class="mb-2">Set a benchmark and report fleet emission </li>
                         </ul>
 
                         <div class="flex gap-5 mt-10 px-5">
@@ -196,19 +183,15 @@ include('components/navbar.php');
             <div id="show4" class="  bg-white shadow-lg w-full">
                 <div class="md:flex justify-center items-center gap-10 p-10">
                     <div class="md:w-1/2 text-sky-800">
-                        <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Levarage AI Advantage</h2>
+                        <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl"> AI Advantage</h2>
                         <!--             <p class="font-bold mb-3">Lorem Ipsum dipsum Lorem ipsum dipsum Lorem Ipsum dipsum Lorem ipsum
                   dipsum Lorem Ipsum
                   dipsum Lorem ipsum dipsum Lorem Ipsum </p> -->
-                        <p class="mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident cupiditate
-                            repellendus
-                            dicta, pariatur distinctio voluptate consequatur rem aut. Quisquam libero soluta et, itaque
-                            odit unde.</p>
-                        <p class="mb-3">Lorem, ipsum dolor.</p>
+                        <p class="mb-5">Make the right decision with automated insights and AI-driven predictions. </p>
                         <ul class="list-disc pl-4 mb-10">
-                            <li class="mb-2">Lorem ipsum dolor sit amet.</li>
-                            <li class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            <li class="mb-2">Gain insights about your fleet’s safety, efficiency, and risks.</li>
+                            <li class="mb-2">Enhance driver retention and address pain points.</li>
+                            <li class="mb-2">Assess possibilities for the future fleet by enhancing the infrastructure.</li>
                         </ul>
 
                         <div class="flex gap-5 mt-10 px-5">
@@ -231,16 +214,12 @@ include('components/navbar.php');
                     <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Expand Value</h2>
 
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eligendi odit
-                            inventore
-                            vero omnis ipsam? Tempore dolore hic, porro molestiae, quod aut perspiciatis minima
-                            doloribus at beatae
-                            ipsum. </p>
-                        <p class="mb-3">lorem ipsum dolor</p>
+                        <p class="mb-5">Amplify value efficiency by integrating with our system smoothly. Customize your preferences using our developers' SDK and APIs. </p>
                         <ul class="list-disc pl-4 mb-10">
-                            <li class="mb-2">lorem ipsum</li>
-                            <li class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li class="mb-2">Manage everything in one place with OEM-connected vehicles and mixed fleets</li>
+                            <li class="mb-2">Integration of third-party devices like cameras or assets</li>
+                            <li class="mb-2">Boost APIs</li>
+                            <li>Customized application development</li>
                         </ul>
 
                         <div class="flex gap-5 mt-10 px-5">
@@ -262,14 +241,12 @@ include('components/navbar.php');
     <section class="bg-white dark:bg-gray-900 mt-32">
         <div class="container px-6 py-10 mx-auto max-w-7xl">
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-sky-800 capitalize dark:text-white text-center">
-                Discover the Geotab
-                advantage</h1>
+            Operate Smartly with the #1 trusted Sat Fleet Management Services</h1>
 
             <p class="mt-4 text-sky-800 xl:mt-6 dark:text-gray-300 text-center md:text-xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus Nostrum quam
-                voluptatibus
+            Scale your fleet management services in the market with us. Choose the best fleet management platform on the market.
             </p>
-            <p class="mt-4 text-sky-800 xl:mt-6 text-center text-xl">Here's what sets us apart</p>
+            
 
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                 <div class="space-y-3">
@@ -282,8 +259,8 @@ include('components/navbar.php');
                     <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Open Platform</h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    Our third-party developments allow smooth integration with existing fleet management systems.
+
                     </p>
                 </div>
 
@@ -297,8 +274,8 @@ include('components/navbar.php');
                     <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Scalability</h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    Grow your business. Support fleets of any size.
+
                     </p>
                 </div>
 
@@ -309,12 +286,11 @@ include('components/navbar.php');
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Comprehensive Data
-                        Collection</h1>
+                    <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Data collection</h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    Get a comprehensive view of your fleet performance with real-time data on vehicles, drivers, and other sources.
+
                     </p>
                 </div>
 
@@ -329,8 +305,8 @@ include('components/navbar.php');
                     <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Rich Details</h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    Trusted vehicle database to enrich the customer experience.
+
                     </p>
                 </div>
 
@@ -344,8 +320,8 @@ include('components/navbar.php');
                     <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Data Intelligence</h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    We help you make an informed decision with data analysis from over 3 million vehicles. Our AI-powered insights and recommendations help you make the right choice.
+
                     </p>
                 </div>
 
@@ -356,12 +332,12 @@ include('components/navbar.php');
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Focus On Sustainability
+                    <h1 class="text-2xl font-semibold text-sky-800 capitalize dark:text-white">Sustainability
                     </h1>
 
                     <p class="text-sky-800 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
-                        non corrupti doloribus voluptatum eveniet
+                    Track and reduce fuel consumption and carbon emissions. 
+
                     </p>
                 </div>
             </div>

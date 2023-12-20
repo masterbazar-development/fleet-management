@@ -1,3 +1,3 @@
 <?php
-$url="http://localhost/nav-bar-fleet/";
+$mainUrl="http://localhost/nav-bar-fleet/";
 ?>

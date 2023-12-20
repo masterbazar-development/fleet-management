@@ -1,8 +1,9 @@
+<?php include('url.php'); ?>
    <!--=============== HEADER ===============-->
    <header class="header">
         <nav class="nav container max-w-7xl">
             <div class="nav__data">
-                <a href="#" class="nav__logo text-3xl">
+                <a href="<?php echo $mainUrl;?>" class="nav__logo text-3xl">
                     Fleet
                 </a>
 
@@ -27,19 +28,19 @@
 
                                     <ul class="dropdown__list">
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/platform-overview" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-layer-group mr-2"></i>Platform Overview</a>
                                             <p class="w-3/4 text-sm">The connected Operatio cloud</p>
                                         </li>
 
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/video-safety" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-video mr-2"></i>Video Based Safety</a>
                                             <p class=" text-sm">Al cameras, driver coaching,</p>
                                             <p class=" text-sm"> safety reports, in-cab alerts</p>
                                         </li>
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/vehicle-telematics" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-truck mr-2"></i>Vehicle Telematics</a>
                                             <p class="w-3/4 text-sm">Real-time GPS, routing, </p>
                                             <p class=" text-sm"> fuel , maintenance, electrification</p>
@@ -84,23 +85,23 @@
 
                                     <ul class="dropdown__list">
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/software-integration" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-code mr-2"></i>Developer API</a>
                                             <p>Install turnkey integrations</p>
                                         </li>
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/data-connector" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-tablet-screen-button mr-2"></i>App Market
                                                 Space</a>
                                             <p>Unlock embedded telematics data</p>
                                         </li>
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/expandability" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-gears mr-2"></i>OEM Integration</a>
                                             <p>Unlock embedded telematics data</p>
                                         </li>
                                         <li class="flex-col">
-                                            <a href="#" class="dropdown__link text-xl"><i
+                                            <a href="<?php echo $mainUrl;?>/product/marketplace" class="dropdown__link text-xl"><i
                                                     class="fa-solid fa-medal mr-2"></i>Expert Marketplace</a>
                                             <p>Find certified Samsara experts</p>
                                         </li>
@@ -301,7 +302,7 @@
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link text-xl">Blog</a>
+                                            <a href="<?php echo $mainUrl;?>/contact-us/contact-us" class="dropdown__link text-xl">contact-us</a>
                                         </li>
                                         <li>
                                             <a href="#" class="dropdown__link text-xl">Webinar</a>
