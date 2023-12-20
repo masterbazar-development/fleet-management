@@ -236,9 +236,9 @@ include('components/navbar.php');
             </div>
         </section>
 <!-- newsletter -->
-<div class="w-full p-5">
+<div class="w-full">
 
-    <div class="container flex flex-col gap-y-8 md:gap-y-10 mx-auto px-5 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 text-gray-200 rounded-2xl"  
+    <div class="container flex flex-col gap-y-8 md:gap-y-10 mx-auto px-5 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 text-gray-200"  
     style="background-image: url('./assets/images/newsletter1.jpg');">
 
       <div class="w-full text-center">
@@ -270,7 +270,7 @@ include('components/navbar.php');
 
   </div>
 
-
+  <?php include('components/footer.php'); ?>
 
 
 

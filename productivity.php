@@ -252,9 +252,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nemo atque ut 
       </div>
       <hr class="my-10 mt-6 border-gray-200 dark:border-gray-700">
 <!-- newsletter -->
-<div class="w-full p-5 pt-14">
+<div class="w-full  pt-14">
 
-  <div class=" flex flex-col gap-y-8 md:gap-y-10 mx-auto px-5 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 text-gray-200 rounded-2xl"  
+  <div class=" flex flex-col gap-y-8 md:gap-y-10 mx-auto px-5 py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 text-gray-200"  
   style="background-image: url('./assets/images/newsletter1.jpg');">
 
     <div class="w-full text-center">
@@ -292,6 +292,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nemo atque ut 
   </div>
 
 </div>
+
+<?php include('components/footer.php'); ?>
 </body>
 </html>
 

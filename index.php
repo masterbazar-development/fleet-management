@@ -576,7 +576,7 @@ include('components/navbar.php');
             </div>
         </div>
     </div>
-
+<!-- footer -->
     <footer class="bg-[#0B2032] dark:bg-gray-900">
         <div class="r py-8 mx-auto max-w-7xl px-3">
             <div>
