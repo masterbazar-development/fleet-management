@@ -97,33 +97,39 @@ include('components/navbar.php');
 
         <div id="step4" style="display: none;">
             <!-- Step 4: Additional Inputs -->
+            <h2 class="mb-4 text-[#253c6a] text-2xl md:text-4xl lg:text-5xl font-semibold">We have countless solutions to help your business grow.</h2>
+            <h3 class="mb-6 text-[#253c6a] text-lg md:text-xl lg:text-3xl font-semibold">Could you tell us where your company is located?</h3>
             <div class="form-group">
-                <label for="additional1">Additional 1</label>
-                <input type="text" id="additional1" name="additional1" required>
+            <select id="fleetSizeStep2" name="fleetSizeStep2" required>
+                    <option value="">Select Fleet Size</option>
+                    <option value="1-50">1-4</option>
+                    <option value="51-100">5-49</option>
+                    <option value="101-500">50-499</option>
+                    <option value="501+">500+</option>
+                </select>
+                <label for="fleetSizeStep2">Country</label>
             </div>
             <div class="form-group">
-                <label for="additional2">Additional 2</label>
-                <input type="text" id="additional2" name="additional2" required>
-            </div>
-            <div class="form-group">
-                <label for="additional3">Additional 3</label>
-                <input type="text" id="additional3" name="additional3" required>
+            <input type="text" id="companyNameStep2" name="companyNameStep2" required>
+                <label for="fleetSizeStep2">City</label>
             </div>
         </div>
 
         <div id="step5" style="display: none;">
             <!-- Step 5: Email, Phone Number, How did you hear about us? -->
+            <h2 class="mb-4 text-[#253c6a] text-2xl md:text-4xl lg:text-5xl font-semibold">Schedule your demo to hear all about our solutions!</h2>
+            <h3 class="mb-6 text-[#253c6a] text-lg md:text-xl lg:text-3xl font-semibold">How can we best get in touch?</h3>
             <div class="form-group">
-                <label for="emailStep5">Email</label>
-                <input type="email" id="emailStep5" name="emailStep5" required>
+            <input type="mail" id="companyNameStep2" name="companyNameStep2" required>
+                <label for="fleetSizeStep2">Email</label>
             </div>
             <div class="form-group">
-                <label for="phoneStep5">Phone Number</label>
-                <input type="tel" id="phoneStep5" name="phoneStep5" required>
+            <input type="text" id="companyNameStep2" name="companyNameStep2" required>
+                <label for="fleetSizeStep2">Phone</label>
             </div>
             <div class="form-group">
-                <label for="hearAboutUsStep5">How did you hear about us?</label>
-                <input type="text" id="hearAboutUsStep5" name="hearAboutUsStep5" required>
+            <input type="text" id="companyNameStep2" name="companyNameStep2" required>
+                <label for="fleetSizeStep2">How did you hear about us?</label>
             </div>
         </div>
 
