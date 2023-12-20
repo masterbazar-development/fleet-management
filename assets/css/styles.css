@@ -381,6 +381,39 @@ a {
 }
 
 
+.progress {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  background-color: #3498db;
+  height: 20px;
+  border-radius: 5px;
+}
+
+input{
+  background: #efefef;
+  font-size: 18px!important;
+  margin-bottom: 5px!important;
+  padding: 10px!important;
+}
+
+form select{
+  background: #efefef;
+  font-size: 18px!important;
+  margin-bottom: 5px!important;
+  padding: 10px!important;
+}
+
+form label{
+  font-size: 18px;
+}
+
+
+
+
 .product-sec{
   background: linear-gradient(-90deg, rgba(0, 0, 0, 0.801) 30%, rgba(0, 0, 0, 0)), url("../images/project-sec.jpg") center center / cover no-repeat;
 }
@@ -398,4 +431,3 @@ a {
 .softwaresec4{
   background: linear-gradient(-60deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) ), url("../images/softwaregrad.jpg") center center / cover no-repeat;
 }
-
