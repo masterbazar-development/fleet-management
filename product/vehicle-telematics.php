@@ -194,7 +194,7 @@ include('../components/navbar.php');
             <div #swiperRef="" class="swiper mySwiper xl:w-2/3">
                 <div class="swiper-wrapper p-10">
                     <div class="swiper-slide bg-white ">
-                        <img src="../assets/images/swippic1.jpg" alt="">
+                        <img src="/assets/images/swippic1.jpg" alt="">
                         <div class="p-5">
                             <p>Blog</p>
                             <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>

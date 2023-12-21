@@ -1,5 +1,5 @@
 <!--=============== MAIN JS ===============-->
-<script src="<?php echo $mainUrl;?>assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 
 </body>
 <footer class="bg-[#0B2032] dark:bg-gray-900">
