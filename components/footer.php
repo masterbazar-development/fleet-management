@@ -1,18 +1,5 @@
-<<<<<<< HEAD
-<!-- footer -->
-<footer class="bg-[#0B2032] dark:bg-gray-900">
-        <div class="r py-8 mx-auto max-w-7xl px-3">
-            <div>
-                <h2 class="uppercase text-3xl text-left text-white  pb-10 px-3 ">Fleet</h2>
-            </div>
-            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-2">
-
-                <div>
-                    <div class="text-xl font-medium text-white ">
-                        Products
-=======
 <!--=============== MAIN JS ===============-->
-<script src="<?php echo $mainUrl;?>assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 
 </body>
 <footer class="bg-[#0B2032] dark:bg-gray-900">
@@ -45,176 +32,13 @@
                 <div class="mt-5">
                     <div class="text-xl font-medium text-white">
                         Government and Smart City
->>>>>>> eee924c83d43e158e881499e50f5681dde5642be
                     </div>
 
                     <a href="#" class="block mt-5 text-base font-medium text-white duration-700 hover:bg-gray-700">
                         Installation
                     </a>
                     <a href="#" class="block mt-3 text-base font-medium text-white duration-700 hover:bg-gray-700">
-<<<<<<< HEAD
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-base font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                    <a href="#" class="block mt-3 text-base font-medium text-white duration-700 hover:bg-gray-700 ">
-                        Using with Preprocessors
-                    </a>
-                    <a href="#" class="block mt-3 text-base font-medium text-white duration-700 hover:bg-gray-700 ">
-                        Optimizing for Production
-                    </a>
-                    <div class="mt-5">
-                        <div class="text-xl font-medium text-white">
-                            Government and Smart City
-                        </div>
-
-                        <a href="#" class="block mt-5 text-base font-medium text-white duration-700 hover:bg-gray-700">
-                            Installation
-                        </a>
-                        <a href="#" class="block mt-3 text-base font-medium text-white duration-700 hover:bg-gray-700">
-                            Rele
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="text-xl font-medium text-white ">
-                        Fleet Management solutions
-                    </div>
-
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Using with Preprocessors
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Optimizing for Production
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Browser Support
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        IntelliSense
-                    </a>
-
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Using with Preprocessors
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Optimizing for Production
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Browser Support
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        IntelliSense
-                    </a>
-
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                </div>
-
-                <div>
-                    <div class="text-xl font-medium text-white ">
-                        Resources
-                    </div>
-
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Using with Preprocessors
-                    </a>
-                    <div class="mt-4">
-                        <div class="text-xl font-medium text-white">
-                            Support
-                        </div>
-
-                        <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                            Installation
-                        </a>
-                        <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                            Release Notes
-                        </a>
-                        <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                            Upgrade Guide
-                        </a>
-                        <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                            Using with Preprocessors
-                        </a>
-                        <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                            Using with Preprocessors
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="text-xl font-medium text-white ">
-                        Our Company
-                    </div>
-
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Using with Preprocessors
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Optimizing for Production
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Browser Support
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        IntelliSense
-                    </a>
-                    <a href="#" class="block mt-5 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Installation
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Release Notes
-                    </a>
-                    <a href="#" class="block mt-3 text-sm font-medium text-white duration-700 hover:bg-gray-700">
-                        Upgrade Guide
-=======
                         Rele
->>>>>>> eee924c83d43e158e881499e50f5681dde5642be
                     </a>
                 </div>
             </div>

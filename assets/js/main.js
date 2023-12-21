@@ -76,11 +76,19 @@ addEventListener('resize', removeStyle)
 
 //-------------- script for service section---------------
 
-var divs = ['show1', 'show2', 'show3', 'show4', 'show5'];
+
+
+
+var divs = ['show1', 'show2', 'show3', 'show4', 'show5', 'one1', 'one2', 'one3', 'one4', 'one5', 'one6', 'one7'];
 
 // Hide all elements initially
 for (var i = 0; i < divs.length; i++) {
-  document.getElementById(divs[i]).style.display = "none";
+  var element = document.getElementById(divs[i]);
+  if (element) {
+    element.style.display = "none";
+  } else {
+    console.error("Element with ID '" + divs[i] + "' not found.");
+  }
 }
 
 // Show the first element initially
@@ -89,20 +97,12 @@ document.getElementById(divs[0]).style.display = "block";
 function toggleVisibility(targetId) {
   for (var i = 0; i < divs.length; i++) {
     var div = document.getElementById(divs[i]);
-    if (divs[i] === targetId) {
-      div.style.display = 'block';
+    if (div) {
+      div.style.display = divs[i] === targetId ? 'block' : 'none';
     } else {
-      div.style.display = 'none';
+      console.error("Element with ID '" + divs[i] + "' not found.");
     }
   }
 }
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> eee924c83d43e158e881499e50f5681dde5642be

@@ -97,6 +97,90 @@ include('components/navbar.php');
       </div>
   </div>
 </div>
+
+<!-- swiper -->
+<section class=" bg-slate-200">
+        <div class="xl:flex max-w-7xl mx-auto py-24">
+            <div class="p-10 xl:w-1/3">
+                <h2 class="text-4xl font-semibold text-[#25477B]">Fleet driver safety blog resources</h2>
+                <p class="text-black mt-4 text-lg">Safety is everyone’s responsibility. Learn about our fleet safety management solutions that monitor driver behavior, along with dashboard reports, custom alerts and collision avoidance systems that can help keep your drivers — and everyone else — safe.</p>
+            </div>
+            <div #swiperRef="" class="swiper mySwiper xl:w-2/3">
+                <div class="swiper-wrapper p-10">
+                    <div class="swiper-slide bg-white ">
+                        <img src="./assets/images/swippic1.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white ">
+                        <img src="./assets/images/swippic2.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic3.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic4.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic1.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic2.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic3.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-white">
+                        <img src="./assets/images/swippic4.jpg" alt="">
+                        <div class="p-5">
+                            <p>Blog</p>
+                            <h3 class="text-xl">Top 5 ways Fleet Is the new yeet </h3>
+                            <p>Febuary 17, 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+
 <!-- fourth section -->
 <div class="container  pt-14 flex flex-col px-6 py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
     <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
@@ -275,4 +359,24 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nemo atque ut 
     </div>
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
   <?php include('components/footer.php'); ?>
