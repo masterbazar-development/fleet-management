@@ -23,8 +23,7 @@ include('components/navbar.php');
           <a href="#" class="block w-full rounded bg-white px-12 py-3 text-lg font-medium text-sky-800 shadow  focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
             Schedule A demo
           </a>
-  
-          
+        
         </div>
       </div>
     </div>

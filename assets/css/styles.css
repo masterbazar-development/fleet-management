@@ -1,40 +1,47 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Roboto:wght@400;500;700;900&display=swap");
 
 /*=============== Helvetica FONTS ===============*/
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../assets/Helvetica/helvetica-light-587ebe5a59211.ttf') format('truetype');
+  font-family: "Helvetica";
+  src: url("../assets/Helvetica/helvetica-light-587ebe5a59211.ttf")
+    format("truetype");
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../assets/Helvetica/Helvetica.ttf') format('truetype');
+  font-family: "Helvetica";
+  src: url("../assets/Helvetica/Helvetica.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../assets/Helvetica/Helvetica-Bold.ttf') format('truetype');
+  font-family: "Helvetica";
+  src: url("../assets/Helvetica/Helvetica-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../assets/Helvetica/helvetica-compressed-5871d14b6903a.ttf') format('truetype');
+  font-family: "Helvetica";
+  src: url("../assets/Helvetica/helvetica-compressed-5871d14b6903a.ttf")
+    format("truetype");
   font-weight: 800;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Helvetica';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica";
 }
-p{
-  font-family: 'Roboto', sans-serif;
+p {
+  font-family: "Roboto", sans-serif;
 }
-ul{
-  font-family: 'Roboto', sans-serif;
+ul {
+  font-family: "Roboto", sans-serif;
 }
 
 /*=============== VARIABLES CSS ===============*/
@@ -92,7 +99,6 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-
   margin-inline: 1.5rem;
 }
 
@@ -369,7 +375,6 @@ a {
   }
 }
 
-
 .overlay {
   background-image: linear-gradient(
     45deg,
@@ -379,7 +384,6 @@ a {
   background-size: 3px 3px;
   z-index: 2;
 }
-
 
 .progress {
   background-color: #f0f0f0;
@@ -393,75 +397,144 @@ a {
   border-radius: 5px;
 }
 
-input{
+input {
   background: #efefef;
-  font-size: 18px!important;
-  margin-bottom: 5px!important;
-  padding: 10px!important;
+  font-size: 18px !important;
+  margin-bottom: 5px !important;
+  padding: 10px !important;
 }
 
-form select{
+form select {
   background: #efefef;
-  font-size: 18px!important;
-  margin-bottom: 5px!important;
-  padding: 10px!important;
+  font-size: 18px !important;
+  margin-bottom: 5px !important;
+  padding: 10px !important;
 }
 
-form label{
+form label {
   font-size: 18px;
 }
 
-
-
-
-.product-sec{
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.801) 30%, rgba(0, 0, 0, 0)), url("../images/project-sec.jpg") center center / cover no-repeat;
+.product-sec {
+  background: linear-gradient(
+      -90deg,
+      rgba(0, 0, 0, 0.801) 30%,
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/project-sec.jpg") center center / cover no-repeat;
 }
 
-.product-marketplace{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/marketplace-banner.jpg") center center / cover no-repeat;
+.product-marketplace {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/marketplace-banner.jpg") center center / cover no-repeat;
 }
 
-
-.product-software{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/softwareint.jpg") center center / cover no-repeat;
+.product-software {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/softwareint.jpg") center center / cover no-repeat;
 }
 
-
-.softwaresec4{
-  background: linear-gradient(-60deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0) ), url("../images/softwaresec2.jpg") center center / cover no-repeat;
+.softwaresec4 {
+  background: linear-gradient(-60deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0)),
+    url("../images/softwaresec2.jpg") center center / cover no-repeat;
 }
 
-.videosafetysec{
-  background: linear-gradient(-80deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0) ), url("../images/videosafetysec.jpg") center center / cover no-repeat;
+.videosafetysec {
+  background: linear-gradient(-80deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0)),
+    url("../images/videosafetysec.jpg") center center / cover no-repeat;
 }
 
-.product-expand{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/expandibilitysec.jpg") center center / cover no-repeat;
+.product-expand {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/expandibilitysec.jpg") center center / cover no-repeat;
 }
 
-.product-videosafety{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/videosafetyban.jpg")  center / cover no-repeat;
+.product-videosafety {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/videosafetyban.jpg") center / cover no-repeat;
 }
 
-.product-telematics{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/telematicban.jpg") center center / cover no-repeat;
+.product-telematics {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/telematicban.jpg") center center / cover no-repeat;
 }
 
-.product-overview{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/overviewban.gif") center center / cover no-repeat;
+.product-overview {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/overviewban.gif") center center / cover no-repeat;
 }
 
-.contactussec{
-  background: linear-gradient(-60deg, rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.815) 60%), url("../images/contactusban.webp") center center / cover no-repeat;
+.contactussec {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/contactusban.webp") center center / cover no-repeat;
 }
 
+.company-career {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/careerban.jpg") center center / cover no-repeat;
+}
 
+.ethic-banner {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/ethicsban.jpg") center center / cover no-repeat;
+}
 
+.social-banner {
+  background: linear-gradient(
+      -60deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.815) 60%
+    ),
+    url("../images/socialbanner.jpg") center center / cover no-repeat;
+}
+
+.securitybanner{
+  background: linear-gradient(
+    -60deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.815) 60%
+  ),
+  url("../images/securitybanner.jpg") center center / cover no-repeat;
+}
 
 
 /* ----------------contact us css start------------------ */
-
 
 .wrapper {
   box-shadow: 4px 4px 2px rgb(181, 200, 228);
@@ -493,8 +566,8 @@ form label{
 }
 
 .one {
-  background-color: #013A6B;
-  background-image: -webkit-linear-gradient(0.01deg, #F0F6FE 55%, #fff 45%);
+  background-color: #013a6b;
+  background-image: -webkit-linear-gradient(0.01deg, #f0f6fe 55%, #fff 45%);
 }
 
 /* ----------------contact us css end------------------ */
