@@ -34,22 +34,22 @@ include('../components/navbar.php');
     <section class="max-w-7xl mx-auto py-16">
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mx-[3vw] xl:mx-0">
             <div>
-            <i class="fa-solid fa-network-wired text-6xl mb-3"></i>
-               
+                <i class="fa-solid fa-network-wired text-6xl mb-3"></i>
+
                 <p class="text-xl font-semibold">Connect your assets your way</p>
                 <p class="text-xl">Connect assets via the Geotab GO device, OEM connected vehicle, or any third party device, sensor, or data stream. </p>
             </div>
             <div>
-            <i class="fa-solid fa-chart-simple text-6xl mb-3"></i>
+                <i class="fa-solid fa-chart-simple text-6xl mb-3"></i>
                 <p class="text-xl font-semibold">Transform data into insights</p>
                 <p class="text-xl">Capture, normalise, and analyse all of your fleet and asset data and turn it into actionable insights.</p>
             </div>
             <div>
-            <i class="fa-solid fa-kaaba text-6xl mb-3"></i>
+                <i class="fa-solid fa-kaaba text-6xl mb-3"></i>
                 <p class="text-xl font-semibold">Empower resilient operations</p>
                 <p class="text-xl">Plug into an open ecosystem of hardware, software and add-ons that you need to meet new opportunities and challenges.</p>
             </div>
-            
+
         </div>
     </section>
 
@@ -321,3 +321,31 @@ include('../components/navbar.php');
 
 
     <?php include('../components/footer.php'); ?>
+
+    <script>
+        var divs = ['show1', 'show2', 'show3', 'show4', 'show5', 'one1', 'one2', 'one3', 'one4', 'one5', 'one6', 'one7'];
+
+        // Hide all elements initially
+        for (var i = 0; i < divs.length; i++) {
+            var element = document.getElementById(divs[i]);
+            if (element) {
+                element.style.display = "none";
+            } else {
+                console.error("Element with ID '" + divs[i] + "' not found.");
+            }
+        }
+
+        // Show the first element initially
+        document.getElementById(divs[0]).style.display = "block";
+
+        function toggleVisibility(targetId) {
+            for (var i = 0; i < divs.length; i++) {
+                var div = document.getElementById(divs[i]);
+                if (div) {
+                    div.style.display = divs[i] === targetId ? 'block' : 'none';
+                } else {
+                    console.error("Element with ID '" + divs[i] + "' not found.");
+                }
+            }
+        }
+    </script>

@@ -8,7 +8,7 @@
     <?php
     include('url.php');
     ?>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="<?php echo $mainUrl?>assets/css/styles.css">
     <title>Navbar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

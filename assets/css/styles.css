@@ -534,6 +534,15 @@ form label {
 }
 
 
+.support-banner{
+  background: linear-gradient(
+    -60deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.815) 60%
+  ),
+  url("../images/supportban.jpg") center center / cover no-repeat;
+}
+
 /* ----------------contact us css start------------------ */
 
 .wrapper {

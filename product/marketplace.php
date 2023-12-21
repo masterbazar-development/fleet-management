@@ -31,10 +31,10 @@ include('../components/navbar.php');
     <div class="flex flex-col items-center lg:flex-row max-w-7xl mx-auto mx-[5vw] gap-8 xl:gap-16 py-16 ">
         <div class="xl:w-1/2 order-2 lg:order-1">
             <h2 class="xl:text-5xl text-3xl text-head font-semibold text-[#25477B] mx-[3vw] xl:mx-0">
-            Solve operational challenges with the Geotab Marketplace
+                Solve operational challenges with the Geotab Marketplace
             </h2>
             <p class=" md:text-lg xl:text-xl md:mt-5 text-start mx-[3vw] xl:mx-0">
-            Our Marketplace curates the best in third-party and Geotab-developed solutions so you can create the most robust telematics framework for your fleet all within the Geotab ecosystem. With over 325 integrated options to choose from – including routing and dispatching, dash cameras and ADAS, maintenance and fuel management, and more – you can hand-pick the partners that will help you reach your operational goals.
+                Our Marketplace curates the best in third-party and Geotab-developed solutions so you can create the most robust telematics framework for your fleet all within the Geotab ecosystem. With over 325 integrated options to choose from – including routing and dispatching, dash cameras and ADAS, maintenance and fuel management, and more – you can hand-pick the partners that will help you reach your operational goals.
             </p>
         </div>
         <div class="xl:w-1/2 order-1 lg:order-2 mx-[3vw] xl:mx-0">
@@ -137,9 +137,9 @@ include('../components/navbar.php');
                 </div>
             </button>
 
-       
+
         </div>
-       
+
         </div>
 
         <div class="">
@@ -153,9 +153,9 @@ include('../components/navbar.php');
                             molestiae magni laboriosam sequi explicabo quaerat consequatur, quas suscipit aut sint
                             mollitia, earum
                             ratione quam soluta? Unde, eligendi?</p>
-                        
+
                         <div class="flex gap-5 mt-10">
-                            
+
                             <a href="" class="px-4 py-3 text-sky-800 font-semibold hover:bg-slate-200">Brouse Basic Solution</a>
 
                         </div>
@@ -167,7 +167,7 @@ include('../components/navbar.php');
             </div>
             <div id="show2" class=" bg-white shadow-lg w-full">
                 <div class="md:flex justify-center items-center gap-10 p-10">
-                <div class="md:w-1/2 text-sky-800">
+                    <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Standard</h2>
 
                         <p class="mb-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores recusandae
@@ -175,9 +175,9 @@ include('../components/navbar.php');
                             molestiae magni laboriosam sequi explicabo quaerat consequatur, quas suscipit aut sint
                             mollitia, earum
                             ratione quam soluta? Unde, eligendi?</p>
-                        
+
                         <div class="flex gap-5 mt-10">
-                            
+
                             <a href="" class="px-4 py-3 text-sky-800 font-semibold hover:bg-slate-200">Brouse Standard Solution</a>
 
                         </div>
@@ -189,7 +189,7 @@ include('../components/navbar.php');
             </div>
             <div id="show3" class="  bg-white shadow-lg w-full">
                 <div class="md:flex justify-center items-center gap-10 p-10">
-                <div class="md:w-1/2 text-sky-800">
+                    <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Premium</h2>
 
                         <p class="mb-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores recusandae
@@ -197,9 +197,9 @@ include('../components/navbar.php');
                             molestiae magni laboriosam sequi explicabo quaerat consequatur, quas suscipit aut sint
                             mollitia, earum
                             ratione quam soluta? Unde, eligendi?</p>
-                        
+
                         <div class="flex gap-5 mt-10">
-                            
+
                             <a href="" class="px-4 py-3 text-sky-800 font-semibold hover:bg-slate-200">Brouse premium Solution</a>
 
                         </div>
@@ -211,7 +211,7 @@ include('../components/navbar.php');
             </div>
             <div id="show4" class="  bg-white shadow-lg w-full">
                 <div class="md:flex justify-center items-center gap-10 p-10">
-                <div class="md:w-1/2 text-sky-800">
+                    <div class="md:w-1/2 text-sky-800">
                         <h2 class="text-3xl font-bold mb-5 font-lora lg:text-4xl">Order Now</h2>
 
                         <p class="mb-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores recusandae
@@ -219,9 +219,9 @@ include('../components/navbar.php');
                             molestiae magni laboriosam sequi explicabo quaerat consequatur, quas suscipit aut sint
                             mollitia, earum
                             ratione quam soluta? Unde, eligendi?</p>
-                        
+
                         <div class="flex gap-5 mt-10">
-                            
+
                             <a href="" class="px-4 py-3 text-sky-800 font-semibold hover:bg-slate-200">Brouse order now Solution</a>
 
                         </div>
@@ -368,6 +368,33 @@ include('../components/navbar.php');
         });
     </script>
 
+    <script>
+        var divs = ['show1', 'show2', 'show3', 'show4', 'show5', 'one1', 'one2', 'one3', 'one4', 'one5', 'one6', 'one7'];
+
+        // Hide all elements initially
+        for (var i = 0; i < divs.length; i++) {
+            var element = document.getElementById(divs[i]);
+            if (element) {
+                element.style.display = "none";
+            } else {
+                console.error("Element with ID '" + divs[i] + "' not found.");
+            }
+        }
+
+        // Show the first element initially
+        document.getElementById(divs[0]).style.display = "block";
+
+        function toggleVisibility(targetId) {
+            for (var i = 0; i < divs.length; i++) {
+                var div = document.getElementById(divs[i]);
+                if (div) {
+                    div.style.display = divs[i] === targetId ? 'block' : 'none';
+                } else {
+                    console.error("Element with ID '" + divs[i] + "' not found.");
+                }
+            }
+        }
+    </script>
 
 
     <?php include('../components/footer.php'); ?>

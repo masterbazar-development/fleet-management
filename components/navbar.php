@@ -45,29 +45,13 @@
                                 </ul>
                             </div>
 
-                            <div class="dropdown__group">
-
-                                <span class="hidden lg:block dropdown__title text-gray-300 text-lg text-white">.</span>
-
-                                <ul class="dropdown__list">
-                                    <li class="flex-col">
-                                        <a href="#" class="dropdown__link text-xl"><i class="fa-solid fa-mobile-screen-button mr-2"></i>App and Driver
-                                            Workflow</a>
-                                        <p class="w-3/4 text-sm"> Messaging, dispatch, documents, ELD</p>
-                                    </li>
-                                    <li class="flex-col">
-                                        <a href="#" class="dropdown__link text-xl"><i class="fa-solid fa-computer mr-2"></i>Equipment Monitoring</a>
-                                        <p class=" text-sm">Location tracking, utilization,
-                                            continuous</p>
-                                        <p class=" text-sm"> diagnostics</p>
-                                    </li>
-                                    <li class="flex-col">
-                                        <a href="#" class="dropdown__link text-xl"><i class="fa-regular fa-eye mr-2"></i>Site Visibility</a>
-                                        <p class="text-sm">Remote visibility, proactive alerting, </p>
-                                        <p class="text-sm">on-the-go
-                                            access</p>
-                                    </li>
-                                </ul>
+                            <div class="dropdown__group w-[15rem]">
+                                <span class="dropdown__title">Report</span>
+                                <div>
+                                    <img class="w-60 h-36" src="<?php echo $mainUrl; ?>assets/images/navcom1.webp" alt="">
+                                    <p class="mt-1 font-semibold mb-3">Apply For 2024 Connected operation Award</p>
+                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
+                                </div>
                             </div>
 
                             <div class="hidden lg:block h-full w-[1px] bg-slate-200 my-5"></div>
@@ -195,147 +179,17 @@
 
                 <!--=============== DROPDOWN 2 ===============-->
                 <li class="dropdown__item">
-                    <div class="nav__link dropdown__button">
-                        Customer <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                    </div>
-
-                    <div class="dropdown__container ">
-                        <div class="dropdown__content">
-                            <div class="dropdown__group">
-                                <span class="dropdown__title text-gray-500 text-lg">Customer Success</span>
-
-                                <ul class="dropdown__list">
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Overview</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Customer Stories</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Customer & Training</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="dropdown__group">
-                                <span class="dropdown__title text-gray-500 text-lg">Customer Support</span>
-
-                                <ul class="dropdown__list">
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Help Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Developer Portal</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Customer Tips</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="dropdown__group w-[15rem]">
-
-                                <span class="dropdown__title">Case Study highlights</span>
-
-                                <div>
-                                    <img class="w-60 h-36" src="./assets/images/navcus1.webp" alt="">
-                                    <p class="mt-1 font-semibold">DHL</p>
-                                    <p class="text-sm mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit. Perspiciatis, temporibus.lorem10</p>
-                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                            <div class="dropdown__group w-[15rem]">
-
-                                <span class="dropdown__title">Case Study highlights</span>
-
-                                <div>
-                                    <img class="w-60 h-36" src="./assets/images/navcus2.webp" alt="">
-                                    <p class="mt-1 font-semibold">Nutrien Solution</p>
-                                    <p class="text-sm mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit. Perspiciatis, temporibus.lorem10</p>
-                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a  class="nav__link" href="<?php echo $mainUrl; ?>/support">Support</a>
                 </li>
 
                 <li class="dropdown__item">
-                    <div class="nav__link dropdown__button">
-                        Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                    </div>
-
-                    <div class="dropdown__container ">
-                        <div class="dropdown__content">
-                            <div class="dropdown__group">
-                                <span class="dropdown__title text-gray-500 text-lg">Resources</span>
-
-                                <ul class="dropdown__list">
-                                    <li>
-                                        <a href="<?php echo $mainUrl; ?>/contact-us/contact-us" class="dropdown__link text-xl">contact-us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Webinar</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Video Library</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Product Tour</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Fleet Safety Guide</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="dropdown__link text-xl">Guide</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="dropdown__group w-[16rem]">
-
-                                <span class="dropdown__title">Report</span>
-
-                                <div>
-                                    <img class="w-60 h-36" src="./assets/images/navre1.webp" alt="">
-                                    <p class="mt-1 font-semibold">State of Connected Operation</p>
-                                    <p class="text-sm mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit. Perspiciatis, temporibus.lorem10</p>
-                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown__group w-[15rem]">
-
-                                <span class="dropdown__title">Optimization</span>
-
-                                <div>
-                                    <img class="w-60 h-36" src="./assets/images/navre2.webp" alt="">
-                                    <p class="mt-1 font-semibold">Make More Possible</p>
-                                    <p class="text-sm mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit. Perspiciatis, temporibus.lorem10</p>
-                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                            <div class="dropdown__group w-[15rem]">
-
-                                <span class="dropdown__title">Innovation</span>
-
-                                <div>
-                                    <img class="w-60 h-36" src="./assets/images/navre3.webp" alt="">
-                                    <p class="mt-1 font-semibold">Build Your Ev Fleet</p>
-                                    <p class="text-sm mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                        elit. Perspiciatis, temporibus.lorem10</p>
-                                    <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a  class="nav__link" href="<?php echo $mainUrl; ?>/support">Marketplace</a>
                 </li>
+
+                <li class="dropdown__item">
+                    <a  class="nav__link" href="<?php echo $mainUrl; ?>/support">Blogs</a>
+                </li>
+                
 
                 <!--=============== DROPDOWN 3 ===============-->
                 <li class="dropdown__item">
@@ -349,7 +203,7 @@
                             <div class="dropdown__group w-[15rem]">
                                 <span class="dropdown__title">Report</span>
                                 <div>
-                                    <img class="w-60 h-36" src="./assets/images/navcom1.webp" alt="">
+                                    <img class="w-60 h-36" src="<?php echo $mainUrl; ?>assets/images/navcom1.webp" alt="">
                                     <p class="mt-1 font-semibold mb-3">Apply For 2024 Connected operation Award</p>
                                     <a class="text-xs text-sky-600" href="">Read more<i class="fa-solid fa-arrow-right ml-2"></i></a>
                                 </div>

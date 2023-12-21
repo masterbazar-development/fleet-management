@@ -1,7 +1,5 @@
-<!--=============== MAIN JS ===============-->
-<script src="./assets/js/main.js"></script>
 
-</body>
+
 <footer class="bg-[#0B2032] dark:bg-gray-900">
     <div class="r py-8 mx-auto max-w-7xl px-3">
         <div>
@@ -226,5 +224,11 @@
 
 
 </footer>
+
+<!--=============== MAIN JS ===============-->
+<script src="<?php echo $mainUrl ?>assets/js/main.js"></script>
+
+</body>
+
 
 </html>
